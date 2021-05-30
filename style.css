@@ -1,0 +1,323 @@
+body {
+	margin: 0;
+	height: 254vh;
+	background-color: black;
+	font-size: 15px;
+	font-family: Helvetica,Arial,sans-serif;
+}
+
+header {
+	height: 5rem;
+	width: 100%;
+}
+
+nav {
+	display: flex;
+	margin-left: 6.5rem;
+	color: white;
+	font-size: 0.9rem;
+}
+
+main {
+	height: 72rem;
+	width: 100%;
+	background-color: white;
+}
+
+
+#nav-logo {
+	display: flex;
+	margin-top: 0.5rem;
+}
+
+#nav-logo:hover {
+	cursor: pointer;
+}
+
+.logo {
+	height: 3rem;
+	width: 3rem;
+	margin-top: 0.5rem;
+	padding-right: 0.5rem;
+}
+
+.logo img {
+	height: 100%;
+	width: 100%;
+	background-color: white;
+	border-radius: 50%;
+}
+
+.nav-items {
+	display: flex;
+	margin: auto;
+	margin-left: 32rem;
+	padding-top: 2rem;
+}
+
+.nav-items div {
+	position: relative;
+	height: 5rem;
+	margin-left: 2rem;
+	margin-bottom: 1rem;
+}
+
+
+.link-items:hover {
+	cursor: pointer;
+	color: #1ED760;
+}
+
+
+#break {
+	font-size: 1.1rem;
+}
+
+.bold-font {
+	font-weight: 800;
+}
+
+.bold-font-log {
+	font-weight: 600;
+}
+
+/*=========================*/
+
+#premium {
+	height: 34.5rem;
+	width: 100%;
+	background-color: #9bf0e1;
+	display: flex;
+}
+
+.side-text {
+	width: 62%;
+	color: rgb(45, 70, 185);
+}
+
+.side-text > div {
+	position: relative;
+	margin-top: 5.5rem;
+	margin-left: 6.5rem;
+	margin-bottom: 5.6rem;
+	text-align: justify;
+}
+
+.side-text > div h1 {
+	font-size: 0.9rem;
+	width: 10rem;
+}
+
+.side-text > div h2 {
+	font-size: 3.1rem;
+	height: 8.5rem;
+	width: 44rem;
+	font-weight: 900;
+}
+
+.side-text > div p {
+	font-size: 1.6rem;
+	height: 4.5rem;
+	width: 36rem;
+}
+
+.side-text > div button {
+	font-size: 0.9rem;
+	width: 17rem;
+	padding: 0.9rem;
+	border-radius: 25px;
+	font-weight: 800;
+	color: white;
+	background-color: rgb(45, 70, 185);
+	border-style: none;
+	transition: all 0.3s linear;
+}
+
+
+.side-text > div button:hover {
+    cursor: pointer;
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -webkit-tap-highlight-color: transparent;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px; 
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px; 
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px; 
+}
+
+#side-image {
+	height: 100%;
+	width: 38%;
+}
+
+#side-image > div {
+	position: relative;
+	height: 75%;
+	width: 80%;
+	margin: 4.5rem 0rem 0rem 0rem;
+}
+
+#side-image div img {
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+}
+
+/*====================*/
+
+#free {
+	height: 37.5rem;
+	width: 100%;
+	background-image: url("https://content-tooling.spotifycdn.com/images/af63e367-ad10-4063-a8e2-5a50ae2a4b28_lie_circles-mobile.svg");
+	background-color: rgb(41, 65, 171);
+	background-position: center center;
+	background-repeat: no-repeat;
+	padding-top: 0.2rem;
+}
+
+#free-text {
+	margin-top: 5.5rem;
+	color: #1ED760;
+}
+
+#free-text > div h2 {
+	height: 4.7rem;
+}
+
+#free-text > div p {
+	height: 5.5rem;
+	width: 33rem;
+}
+
+#free-text > div button {
+	background-color: #1ED760;
+	color: blue;
+}
+
+/*===========================*/
+
+footer {
+	color: white;
+	font-size: 0.75rem;
+}
+
+footer ul{
+	list-style: none;
+}
+
+
+.heading-font {
+	color: gray;
+}
+
+.spotify-logo {
+	margin: 1rem 0rem 0 0rem;
+	font-size: 0.8rem;
+	font-weight: 600;
+}
+
+.spotify-logo:hover {
+	cursor: pointer;
+}
+
+#reg {
+	font-size: 0.9rem;
+	margin-top: 1.4rem;
+}
+
+#contact {
+	height: 20rem;
+	margin: 3.5rem 0 0 6.5rem;
+}
+
+/*#contact  ul{
+	list-style: none;
+}
+*/
+#contact div:nth-child(2) {
+	margin-left: 2rem;
+}
+
+#contact div:nth-child(2)  ul{
+	width: 10rem;
+	margin-left: 0.1rem;
+  	padding: 1rem;
+  	font-size: 1rem;
+}
+
+#contact div:nth-child(2)  li{
+	padding: 0.8rem;
+}
+
+#contact div:nth-child(2) ul li:first-child{
+	font-size: 0.78rem;
+	font-weight: 800;
+}
+
+#contact div:nth-child(3) {
+	margin: 1rem 0 3rem 8.5rem;
+	/*margin: 4.5rem 0 3rem 11rem;*/
+}
+
+#contact div:nth-child(3)  ul{
+	height: 8rem;
+}
+
+#contact div:nth-child(3)  li{
+	height: 2rem;
+	width: 2rem;
+	margin: 1.1rem;
+}
+
+#contact div:nth-child(3)  a{
+	height: 1.8rem;
+	width: 1.8rem;
+	font-size: 1.7rem;
+	text-align: center;
+	padding: 0.7rem;
+	border-radius: 50%;
+	background-color: rgb(48,48,48);
+	color: white;
+	text-decoration: none;
+}
+
+#contact div:nth-child(3)  a:hover {
+	color: #1ED760;
+}
+
+
+.flex-items {
+	display: flex;
+}
+
+#copyright {
+	margin: 2.5rem;
+	margin-left: 4rem;
+}
+
+#copyright div:first-child {
+	width: 45rem;
+	margin-top: 1.7rem;
+}
+
+#copyright div:first-child ul li {
+	padding-right: 1.5rem;
+}
+
+#copyright div:last-child {
+	margin-left: 19.4rem;
+}
+
+
+#copyright div:last-child ul li{
+	padding: 0.8rem;
+	padding-top: 0;
+	text-align: right;
+}
+
+#copyright div:last-child ul li a{
+	font-size: 0.9rem;
+	padding-right: 0.5rem;
+	color: gray;
+	text-decoration: none;
+}
+
+
